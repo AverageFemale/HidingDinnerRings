@@ -77,7 +77,7 @@ async function main() {
       !["streamelements","nightbot"].includes(user) &&
       msg.emoteOffsets.size == 0
     ) {
-      const message = `Oh hello! I see your username and I just wanted to inform you on how the point system works. Basically, you get 10 points every 10 minutes, with these points you can redeem robux. Every 10 points is basically 1 robux, so the longer you keep watching the more points and robux you can get. When you're ready to redeem all you have to do is show HDR your points by doing !points and then he'll ask you for your username and donate to you, after that he'll remove the points. [Automated Response]`;
+      const message = `Oh hello! I see your username and I just wanted to inform you on how the point system works. Basically, you get 10 points every 10 minutes, with these points you can redeem robux. Every 10 points is basically 1 robux. When you're ready to redeem all you have to do is show HDR your points by doing !points and then he'll ask you for your username and donate to you, after that he'll remove the points. [Automated Response]`;
       chatClient.say(channel, message, {replyTo: msg});
     }
   });
