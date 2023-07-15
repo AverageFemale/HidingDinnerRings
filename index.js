@@ -71,7 +71,7 @@ async function main() {
       !/je_remy|hdr_|haz3|cheer[0-9]+|@[aA-zZ]+|![aA-zZ]+/g.test(text.toLowerCase()) &&
       !msg.isCheer &&
       !msg.isReply &&
-      //!msg.userInfo.isMod &&
+      !msg.userInfo.isMod &&
       !msg.userInfo.isBroadcaster &&
       !/redeem|sub/g.test(text.toLowerCase()) &&
       !["streamelements","nightbot"].includes(user) &&
